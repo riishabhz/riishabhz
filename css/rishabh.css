@@ -453,13 +453,13 @@ left:525px;
 }
 
 .cards{
-  border: 2px solid red;
+  
   display: flex;
   justify-content: center;
 }
 
 .card-size {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 30px 50px 0 rgba(0, 0, 0, 0.2);
   width: 70%;
   text-align: center;
   font-family: arial;
