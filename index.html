@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Material Design for Bootstrap</title>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/aos.css">
+  <link rel="stylesheet" href="animate.min.css">
+  <link rel="stylesheet" href="css\rishabh.css">
+</head>
+
+
+<!--<link rel="stylesheet" href="style.css">-->
+ 
+<script type="text/javascript">
+window.onload = function () {
+	var chart = new CanvasJS.Chart("chartContainer",
+	{
+		legend: {
+			maxWidth: 200,
+			itemWidth: 100
+		},
+		data: [
+		{
+			type: "pie",
+			showInLegend: true,
+			legendText: "{indexLabel}",
+			dataPoints: [
+				{ y: 11.1, indexLabel: "Python" },
+				{ y:11.1, indexLabel: "Qlikview" },
+				{ y: 11.1, indexLabel: "powerBi" },
+				{ y: 11.1, indexLabel: "Tableau"},
+				{ y: 11.1, indexLabel: "Excel" },
+				{ y: 11.1, indexLabel: "Dotnet(asp)"},
+				{ y: 11.1, indexLabel: "SAS"},
+        { y: 11.1, indexLabel: "Data science"},
+        { y: 11.1, indexLabel: "Jquery"}
+              
+			]
+		}
+		]
+	});
+	chart.render();
+}
+</script>
+
+<script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+
+
+
+<body> 
+  <div class="hero">
+    <div id="particles-js"> </div>
+      <div class="container" id="my_centered_buttons">
+        <div class="row">
+          <a class="btn red col" href="#cardsintro">Introduction</a>
+        </div>
+        <div class="row">
+          <a class="btn red col" href="#skillsscroll">Skills</a>
+        </div>
+        <div class="row">
+          <a class="btn red col" href="#timescroll">Timeline</a>
+        </div>
+        <div class="row">
+          <a class="btn red col" href="#certificatescroll">Certificates</a>
+        </div>
+      </div>
+    
+  </div>
+
+  <div class="container fix">
+    <div class="cards" id="cardsintro">
+      <div data-aos="flip-down" class="card-size">
+        <img src="1.jpg" alt="John" style="width:95%">
+        <h1>Rishabh Bhardwaj</h1>
+        <p class="title">I am a Data science enthusiastic person and loves to play with data.
+          Experienced as Data Analyst with a demonstrated history of working in the information technology and Retail industry. Skilled in Python,Sql,Bi-tools like qlikview,powerbi and tableau,Advances Microsoft Excel ,Website development .<br>
+          I am actively looking for a job in the field of data Analyst/science or business Analyst</p>
+        <p>Amity University</p>
+
+        <div style="margin: 24px 0;">
+          <a href="https://drive.google.com/open?id=1WKdYR-2cSFagJFUyT4T8UGorzhUFwD9S"target="_blank"><i class="fa fa-file-text"></i></a>
+          <a href="https://www.linkedin.com/in/riishabhz/"target="_blank"><i class="fa fa-linkedin"></i></a>
+          <a href="https://www.instagram.com/riishabhz/"target="_blank"><i class="fa fa-instagram"></i></a>
+          <a href="mailto:rishabhbhardwaj24@gmail.com"target="_blank"><i class="fa fa-envelope-o"></i></a>
+          <a href="https://github.com/riishabhz"target="_blank"><i class="fa fa-github"></i></a> 
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div  class="parallax-container" >
+    <div class="parallax">
+      <img src="green.jpg" class="responsive-img">
+    </div>
+    <h1  id="skillsscroll" height:inherit;vertical-align:bottom;margin:0;display:table-cell; 
+      style="font-size:50px;color:white;bottom:50px"> SKILLS</h1>
+  </div>
+
+  <div data-aos="flip-right" class="container fix">
+    <div id="chartContainer" style="height: 400px; max-width: 920px; margin: 0px auto;;"></div>
+  </div>  
+
+  <div class="parallax-container">
+    <div class="parallax">
+      <img src="green.jpg" class="responsive-img">
+    </div>
+    <h1 id="timescroll" style="font-size:50px;color:white;bottom:50px"> TimeLine</h1>
+  </div>
+  
+  <div class="test">
+    <h1 style="color:white;"></h1>
+    <div class="timeline">
+  
+    <h2 class="timeline__item timeline__item--year">1995</h2>
+  
+    <div class="timeline__item">
+      <h3 data-aos="fade-right" class="timeline__title">Born</h3>
+    </div>
+  
+    <h2 class="timeline__item timeline__item--year">2011</h2>
+  
+    <div class="timeline__item">
+      <h3 data-aos="fade-left" class="timeline__title">Graduated High School <br>Class 10</h3>
+    </div>
+  
+   <h2 class="timeline__item timeline__item--year">2013</h2>
+  
+  <div class="timeline__item">
+    <h3 data-aos="fade-right" class="timeline__title">Graduated Senior High School <br> class 12</h3>
+  </div>
+  
+  <h2 class="timeline__item timeline__item--year">2013-2017</h2>
+  
+  <div class="timeline__item">
+    <h3 data-aos="fade-left" class="timeline__title">Bachelor of Technology <br> Electronics and telecommunication </h3>
+  </div>
+  
+  <h2 class="timeline__item timeline__item--year">2017</h2>
+  
+  <div class="timeline__item">
+    <h3  data-aos="fade-right" class="timeline__title">Internship</h3>
+    <p data-aos="fade-right" class="timeline__blurb">Powergrid <br>optical fibres</p>
+  </div>
+  
+  <h2 class="timeline__item timeline__item--year">2018</h2>
+  
+  <div class="timeline__item">
+    <h3 data-aos="fade-left"class="timeline__title">Machine Learning Internship</h3>
+    <p data-aos="fade-left" class="timeline__blurb">coding ninjas</p>
+  </div>
+  
+  <div class="timeline__item">
+    <h3 data-aos="fade-right" class="timeline__title">Python Certification</h3>
+  </div>
+  
+  
+  <h2 class="timeline__item timeline__item--year">2019</h2>
+  
+  <div class="timeline__item">
+    <h3 data-aos="fade-left" class="timeline__title">First Job as Data Analyst</h3>
+    <p data-aos="fade-left" class="timeline__blurb">United Colors Of Benetton</p>
+  </div>
+  
+
+</div>  
+</div>
+
+  
+  </div>
+
+  <div class="parallax-container">
+      <div class="parallax">
+        <img src="green.jpg" class="responsive-img">
+        
+      </div>
+      <h1 id="certificatescroll" height:inherit;vertical-align:bottom;margin:0;display:table-cell; style="font-size:50px;color:white;bottom:50px">Certificates:-</h1>
+ </div>
+  <div class="testa">
+    <div class="wrapper">
+  <div class="cols">
+			<div class="col" ontouchstart="this.classList.toggle('hover');">
+				<div class="container">
+					<div data-aos="zoom-in" class="front" style="background-image: url(python.jpg)">
+						<div class="inner">
+							<p>Python<br>
+              <a href="https://www.udemy.com/certificate/UC-ZVMXMKW4/"target="_blank">credentials</a>
+              </p>
+              <span>  </span>
+						</div>
+					</div>
+					<div class="back">
+						<div class="inner">
+						  <p>numpy<br>pandas<br>selenium<br>Matplotlib<br>Plotly
+              beautifulsoup<br><a href="https://www.udemy.com/certificate/UC-ZVMXMKW4/"target="_blank">credentials</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col" ontouchstart="this.classList.toggle('hover');">
+				<div class="container">
+					<div data-aos="zoom-in" class="front" style="background-image:url(machinelearning.jpeg)">
+						<div class="inner">
+							<p>Machine Learning<br>
+              <a href="https://ninjasfiles.s3.amazonaws.com/certificate1359605b54dd614ad7e02602d79d4387480e48.pdf"target="_blank">credentials</a></p>
+              <span> </span>
+						</div>
+					</div>
+					<div class="back">
+						<div class="inner">
+							<p>Linear Regression <br>Logistic Regression <br>SciKit-Learn<br>nlp<br>
+              
+              <a href="https://ninjasfiles.s3.amazonaws.com/certificate1359605b54dd614ad7e02602d79d4387480e48.pdf"target="_blank">credentials</a>
+              
+              </p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col" ontouchstart="this.classList.toggle('hover');">
+				<div class="container">
+					<div data-aos="zoom-in" class="front" style="background-image: url(sql.jpg)">
+						<div class="inner">
+							<p>Sql<br> <a href="https://www.udemy.com/certificate/UC-LXGLR8DQ/"target="_blank">credentials</a></p>
+              <span> </span>
+						</div>
+					</div>
+					<div class="back">
+						<div class="inner">
+							<p>joins<br>store procedures<br>views<br>commands
+              <br> <a href="https://www.udemy.com/certificate/UC-LXGLR8DQ/"target="_blank">credentials</a>
+              </p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col" ontouchstart="this.classList.toggle('hover');">
+				<div class="container">
+					<div data-aos="zoom-in" class="front" style="background-image: url(qlik.jpg)">
+						<div class="inner">
+							<p>Qlikview<br><a href="https://www.udemy.com/certificate/UC-TWIW5N8W/"target="_blank">credentials</a></p>
+              <span> </span>
+						</div>
+					</div>
+					<div class="back">
+						<div class="inner">
+							<p>ETL-scripts <Br>Incremental-load<br>Charts<Br>DataModelling<br>kpi<br>
+              <a href="https://www.udemy.com/certificate/UC-TWIW5N8W/"target="_blank">credentials</a>
+              </p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col" ontouchstart="this.classList.toggle('hover');">
+				<div class="container">
+					<div data-aos="zoom-in" class="front" style="background-image: url(power.png)">
+						<div class="inner">
+							<p>powerbi<br><a href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-QJB1DT6Z.pdf"target="_blank">credentials</a></p>
+              <span></span>
+						</div>
+					</div>
+					<div class="back">
+						<div class="inner">
+							<p>charts<br>Tables<br>Reports<br>Datasets<br>
+              <a href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-QJB1DT6Z.pdf"target="_blank">credentials</a>
+              </p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col" ontouchstart="this.classList.toggle('hover');">
+				<div class="container">
+					<div data-aos="zoom-in" class="front" style="background-image: url(google.png)">
+						<div class="inner">
+							<p>Google analytics <br><a href="https://analytics.google.com/analytics/academy/certificate/42_245BOSOiJ5edMMSG-pQ"target="_blank">credentials</a></p>
+              <span> </span>
+						</div>
+					</div>
+					<div class="back">
+						<div class="inner">
+							<p>Reports<br>Analyzing<br>Tracking<br>Filters
+              
+              <br><a href="https://analytics.google.com/analytics/academy/certificate/42_245BOSOiJ5edMMSG-pQ" target="_blank">credentials</a>
+              </p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col" ontouchstart="this.classList.toggle('hover');">
+				<div class="container">
+					<div data-aos="zoom-in" class="front" style="background-image: url(excel.png)">
+						<div class="inner">
+							<p>Microsoft Excel</p>
+              <span> </span>
+						</div>
+					</div>
+					<div class="back">
+						<div class="inner">
+							<p>Vlookup<br>Xlookup<br>Pivot<br>functions</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col" ontouchstart="this.classList.toggle('hover');">
+				<div class="container">
+					<div data-aos="zoom-in" class="front" style="background-image: url(sas.jpg)">
+						<div class="inner">
+							<p>Sas</p>
+              <span></span>
+						</div>
+					</div>
+					<div class="back">
+						<div class="inner">
+							<p>sql syntax<br>functions<br>t-tests<br>Regression</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+ </div>
+   <!-- hitwebcounter Code START -->
+<a href="https://www.hitwebcounter.com" target="_blank">
+<img src="https://hitwebcounter.com/counter/counter.php?page=7215608&style=0001&nbdigits=5&type=page&initCount=0" title="User Stats" Alt="PHP Hits Count"   border="0" >
+</a>                                    
+           
+  </div>
+
+
+   
+    </div>
+  
+ 
+  </div>
+  
+
+  <script src="particles.js"></script>
+  <script src="js/aos.js"></script>
+  <script>
+    var video = document.getElementById("myVideo");
+    var btn = document.getElementById("myBtn");
+
+    particlesJS.load('particles-js', '../portfolio/particles.json', function() {
+      console.log('callback - particles.js config loaded');
+    });
+
+
+ $(document).ready(function(){
+    $('.parallax').parallax();
+  });
+
+
+    $('.carousel.carousel-slider').carousel({
+    fullWidth: true
+   
+  });
+
+  setInterval(function() {
+    $('.carousel.carousel-slider').carousel('next');
+  }, 2000);
+      
+    AOS.init();
+
+
+
+    $(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 1000, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+
+  </script>
+
+ 
+</body>
+</html>
