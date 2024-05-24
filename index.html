@@ -13,6 +13,33 @@
   <link rel="stylesheet" href="css/aos.css">
   <link rel="stylesheet" href="animate.min.css">
   <link rel="stylesheet" href="css\rishabh.css">
+  
+  <style>
+    .card .card-image img {
+      height: 200px; /* Adjust this value as needed */
+      object-fit: cover;
+      width: 100%;
+    }
+
+    .card .card-title {
+      font-size: 1.5rem; /* Adjust as needed */
+    }
+
+    .card .card-content p {
+      font-size: 1rem; /* Adjust as needed */
+    }
+
+    .container h1 {
+      margin-bottom: 30px;
+    }
+
+    .card {
+      margin-bottom: 30px;
+    }
+  </style>
+  
+  
+  
 </head>
 
 
@@ -65,10 +92,13 @@ window.onload = function () {
           <a class="btn red col" href="#skillsscroll">Skills</a>
         </div>
         <div class="row">
-          <a class="btn red col" href="#timescroll">Timeline</a>
-        </div>
-        <div class="row">
           <a class="btn red col" href="#certificatescroll">Certificates</a>
+        </div>
+		<div class="row">
+          <a class="btn red col" href="#portscroll">PortFolio</a>
+        </div>
+		<div class="row">
+          <a class="btn red col" href="#timescroll">Timeline</a>
         </div>
       </div>
     
@@ -107,87 +137,7 @@ window.onload = function () {
     <div id="chartContainer" style="height: 400px; max-width: 920px; margin: 0px auto;;"></div>
   </div>  
 
-  <div class="parallax-container">
-    <div class="parallax">
-      <img src="green.jpg" class="responsive-img">
-    </div>
-    <h1 id="timescroll" style="font-size:50px;color:white;bottom:50px"> TimeLine</h1>
-  </div>
   
-  <div class="test">
-    <h1 style="color:white;"></h1>
-    <div class="timeline">
-  
-    <h2 class="timeline__item timeline__item--year">1995</h2>
-  
-    <div class="timeline__item">
-      <h3 data-aos="fade-right" class="timeline__title">Born</h3>
-    </div>
-  
-    <h2 class="timeline__item timeline__item--year">2011</h2>
-  
-    <div class="timeline__item">
-      <h3 data-aos="fade-left" class="timeline__title">Graduated High School <br>Class 10</h3>
-    </div>
-  
-   <h2 class="timeline__item timeline__item--year">2013</h2>
-  
-  <div class="timeline__item">
-    <h3 data-aos="fade-right" class="timeline__title">Graduated Senior High School <br> class 12</h3>
-  </div>
-  
-  <h2 class="timeline__item timeline__item--year">2013-2017</h2>
-  
-  <div class="timeline__item">
-    <h3 data-aos="fade-left" class="timeline__title">Bachelor of Technology <br> Electronics and telecommunication </h3>
-  </div>
- 
-<!-- 
-  <h2 class="timeline__item timeline__item--year">2017</h2>
-  
-  <div class="timeline__item">
-    <h3  data-aos="fade-right" class="timeline__title">Internship</h3>
-    <p data-aos="fade-right" class="timeline__blurb">Powergrid <br>optical fibres</p>
-  </div>
-  
-  <h2 class="timeline__item timeline__item--year">2017</h2>
-  
-  <div class="timeline__item">
-    <h3 data-aos="fade-left"class="timeline__title">Machine Learning Internship</h3>
-    <p data-aos="fade-left" class="timeline__blurb">coding ninjas</p>
-  </div>
-  
-  <div class="timeline__item">
-    <h3 data-aos="fade-right" class="timeline__title">Python Certification</h3>
-  </div>
-  
-  -->
-  
-  <h2 class="timeline__item timeline__item--year">JUNE 2018- JUNE 2020</h2>
-  
-  <div class="timeline__item">
-    <h3 data-aos="fade-left" class="timeline__title">Data Analyst and Marketing Analyst</h3>
-    <p data-aos="fade-left" class="timeline__blurb">United Colors Of Benetton</p>
-  </div>
-  
-  <h3 class="timeline__item timeline__item--year">OCT 2020- OCT 2021</h3>
-  <div class="timeline__item">
-    <h3 data-aos="fade-left" class="timeline__title">Senior Associate</h3>
-    <p data-aos="fade-left" class="timeline__blurb">Fiserv</p>
-  </div>
-  
-  <h4 class="timeline__item timeline__item--year">OCT 2021 - SEPT 2023</h4>
-  <div class="timeline__item">
-    <h3 data-aos="fade-left" class="timeline__title">Business Consultant</h3>
-    <p data-aos="fade-left" class="timeline__blurb">EY</p>
-  </div>
-  
-
-</div>  
-</div>
-
-  
-  </div>
 
   <div class="parallax-container">
       <div class="parallax">
@@ -333,6 +283,7 @@ window.onload = function () {
 						<div class="inner">
 							<p>sql syntax<br>functions<br>t-tests<br>Regression</p>
 						</div>
+						
 					</div>
 				</div>
 			</div>
@@ -344,10 +295,146 @@ window.onload = function () {
 </a>                                    
            
   </div>
+  
+<div class="parallax-container">
+    <div class="parallax">
+      <img src="green.jpg" class="responsive-img">
+    </div>
+    <h1 id="portscroll" style="font-size:50px;color:white;bottom:50px"> PortFolio</h1>
+  </div>
+  
+	
+    <div class="row">
+      <div class="col s12 m4">
+        <div class="card">
+          <div class="card-image">
+            <img src="imagess/power.png" alt="Power BI">
+            <span class="card-title">Power BI Project</span>
+          </div>
+          <div class="card-content">
+            <p>Power BI Github Repository.</p>
+          </div>
+          <div class="card-action">
+            <a href="https://github.com/riishabhz/DataViz/tree/main">View Project</a>
+          </div>
+        </div>
+      </div>
 
+      <div class="col s12 m4">
+        <div class="card">
+          <div class="card-image">
+            <img src="imagess/tableau.png" alt="Tableau">
+            <span class="card-title">Tableau Project</span>
+          </div>
+          <div class="card-content">
+            <p>Tableau Project Repository</p>
+          </div>
+          <div class="card-action">
+            <a href="https://public.tableau.com/app/profile/rishabh.bhardwaj5420/vizzes">View Project</a>
+          </div>
+        </div>
+      </div>
 
+      <div class="col s12 m4">
+        <div class="card">
+          <div class="card-image">
+            <img src="imagess/sql.png" alt="Power BI">
+            <span class="card-title">SQL Project</span>
+          </div>
+          <div class="card-content">
+            <p>SQL Github Repository.</p>
+          </div>
+          <div class="card-action">
+            <a href="https://github.com/riishabhz/SQL">View Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<div class="parallax-container">
+    <div class="parallax">
+      <img src="green.jpg" class="responsive-img">
+    </div>
+    <h1 id="timescroll" style="font-size:50px;color:white;bottom:50px"> TimeLine</h1>
+  </div>
+  
+  <div class="test">
+    <h1 style="color:white;"></h1>
+    <div class="timeline">
+ <!-- 
+    <h2 class="timeline__item timeline__item--year">1995</h2>
+  
+    <div class="timeline__item">
+      <h3 data-aos="fade-right" class="timeline__title">Born</h3>
+    </div>
+  
+    <h2 class="timeline__item timeline__item--year">2011</h2>
+  
+    <div class="timeline__item">
+      <h3 data-aos="fade-left" class="timeline__title">Graduated High School <br>Class 10</h3>
+    </div>
+  
+   <h2 class="timeline__item timeline__item--year">2013</h2>
+  
+  <div class="timeline__item">
+    <h3 data-aos="fade-right" class="timeline__title">Graduated Senior High School <br> class 12</h3>
+  </div>
+  
+  <h2 class="timeline__item timeline__item--year">2013-2017</h2>
+  
+  <div class="timeline__item">
+    <h3 data-aos="fade-left" class="timeline__title">Bachelor of Technology <br> Electronics and telecommunication </h3>
+  </div>
+ 
+<!-- 
+  <h2 class="timeline__item timeline__item--year">2017</h2>
+  
+  <div class="timeline__item">
+    <h3  data-aos="fade-right" class="timeline__title">Internship</h3>
+    <p data-aos="fade-right" class="timeline__blurb">Powergrid <br>optical fibres</p>
+  </div>
+  
+  <h2 class="timeline__item timeline__item--year">2017</h2>
+  
+  <div class="timeline__item">
+    <h3 data-aos="fade-left"class="timeline__title">Machine Learning Internship</h3>
+    <p data-aos="fade-left" class="timeline__blurb">coding ninjas</p>
+  </div>
+  
+  <div class="timeline__item">
+    <h3 data-aos="fade-right" class="timeline__title">Python Certification</h3>
+  </div>
+  
+  -->
+  
+  <h2 class="timeline__item timeline__item--year">JUNE 2018- JUNE 2020</h2>
+  
+  <div class="timeline__item">
+    <h3 data-aos="fade-left" class="timeline__title">Data Analyst and Marketing Analyst</h3>
+    <p data-aos="fade-left" class="timeline__blurb">United Colors Of Benetton</p>
+  </div>
+  
+  <h3 class="timeline__item timeline__item--year">OCT 2020- OCT 2021</h3>
+  <div class="timeline__item">
+    <h3 data-aos="fade-left" class="timeline__title">Senior Associate</h3>
+    <p data-aos="fade-left" class="timeline__blurb">Fiserv</p>
+  </div>
+  
+  <h4 class="timeline__item timeline__item--year">OCT 2021 - SEPT 2023</h4>
+  <div class="timeline__item">
+    <h3 data-aos="fade-left" class="timeline__title">Business Consultant</h3>
+    <p data-aos="fade-left" class="timeline__blurb">EY</p>
+  </div>
+  
+
+</div>  
+</div>
+
+  
+  </div>
    
     </div>
+</a> 
   
  
   </div>

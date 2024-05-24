@@ -516,5 +516,28 @@ left:525px;
   background-position: 50% 50%;
 }
 
+
+.card .card-image img {
+  height: 200px; /* Adjust this value as needed */
+  object-fit: cover;
+  width: 100%;
+}
+
+.card .card-title {
+  font-size: 1.5rem; /* Adjust as needed */
+}
+
+.card .card-content p {
+  font-size: 1rem; /* Adjust as needed */
+}
+
+.container h1 {
+  margin-bottom: 30px;
+}
+
+.card {
+  margin-bottom: 30px;
+}
+
 /*#my_centered_buttons { display: flex; justify-content: center; }*/
 </style>
