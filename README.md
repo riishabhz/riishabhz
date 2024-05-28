@@ -1,3 +1,1 @@
-# riishabhz
-portfolio
-hi , i have used particles.js and aos.css in this with materialized.css framework.
+i have used particles.js and aos.css in this with materialized.css framework for my portfolio website
